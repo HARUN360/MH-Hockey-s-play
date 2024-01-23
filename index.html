@@ -24,6 +24,7 @@
 </head>
 
 <body class="font-manrope">
+  <!-- header part -->
   <header class="container mx-auto">
     <!-- navber part start -->
     <nav>
@@ -59,7 +60,7 @@
         </div>
         <div class="navbar-end">
           <div class="flex items-center justify-center">
-            <a href=""><i class="hidden lg:flex mr-5 text-[#89898B] fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="hidden lg:flex mr-5 text-[#89898B] hover:text-[#FF4240] duration-75 fa-solid fa-magnifying-glass"></i></a>
             <a class="btn text-white text-xl font-bold bg-[#ff4240] rounded-lg">Get Ticket</a>
           </div>
         </div>
@@ -108,6 +109,7 @@
       </div>
     </div>
   </header>
+  <!-- main part -->
   <main class="container mx-auto">
     <!-- Professional Hockeys Club part -->
     <section class="my-24">
@@ -429,34 +431,50 @@
           </div>
         </div>
         <form class="px-4">
-           <div class="flex flex-col lg:flex-row gap-4">
-             <div>
+          <div class="flex flex-col lg:flex-row gap-4">
+            <div>
               <h3 class="text-[#131318] text-xl font-bold pb-3">Your Name</h3>
-              <input type="text" placeholder="Enter your full name" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10"  />
+              <input type="text" placeholder="Enter your full name"
+                class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10" />
             </div>
-             <div>
+            <div>
               <h3 class="text-[#131318] text-xl font-bold pb-3">Your Email</h3>
-              <input type="email" name="" id="" placeholder="Enter your email" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
-             </div>
-           </div>
-           <div class="flex  flex-col lg:flex-row gap-4">
-            <div>
-             <h3 class="text-[#131318] text-xl font-bold py-3">Subject</h3>
-             <input type="text" placeholder="Enter your subject" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10"  />
-           </div>
-            <div>
-             <h3 class="text-[#131318] text-xl font-bold py-3">Phone Number</h3>
-             <input type="number" name="" id="" placeholder="Enter your phone number" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
+              <input type="email" name="" id="" placeholder="Enter your email"
+                class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
             </div>
           </div>
-           <div>
+          <div class="flex  flex-col lg:flex-row gap-4">
+            <div>
+              <h3 class="text-[#131318] text-xl font-bold py-3">Subject</h3>
+              <input type="text" placeholder="Enter your subject"
+                class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10" />
+            </div>
+            <div>
+              <h3 class="text-[#131318] text-xl font-bold py-3">Phone Number</h3>
+              <input type="number" name="" id="" placeholder="Enter your phone number"
+                class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
+            </div>
+          </div>
+          <div>
             <h3 class="text-[#131318] text-xl font-bold py-4">Message</h3>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="text-left p-10 bg-[#F8F8F8] w-full lg:w-[550px] rounded-xl"></textarea>
-           </div>
-           <div>
-            <button class="py-4 w-full lg:px-52 my-10 rounded-xl bg-[#FF4240] text-xl font-bold text-white ">Send Message</button>
-           </div>
-       </form>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message"
+              class="text-left p-10 bg-[#F8F8F8] w-full lg:w-[550px] rounded-xl"></textarea>
+          </div>
+          <div>
+            <button class="py-4 w-full lg:px-52 my-10 rounded-xl bg-[#FF4240] text-xl font-bold text-white ">Send
+              Message</button>
+          </div>
+        </form>
+      </div>
+      <!-- sosial -->
+      <div class="bg-[#F8F8F8] rounded-xl py-6 px-4">
+        <h3 class="text-2xl font-extrabold text-[#131318] text-center">Social Media</h3>
+        <div class="text-center pt-6">
+          <a href=""><i class=" px-8 text-4xl fa-brands fa-twitter"></i></a>
+          <a href=""><i class=" px-8 text-4xl fa-brands fa-facebook-f"></i></a>
+          <a href=""> <i class=" px-8 text-4xl fa-brands fa-instagram"></i></a>
+          <a href=""> <i class=" px-8 text-4xl fa-brands fa-github"></i></a>
+        </div>
       </div>
     </section>
   </main>
@@ -465,9 +483,11 @@
   <footer class="footer  p-10 bg-[#131318]">
     <nav class="text-[#AFAFAF] text-base font-medium ">
       <header class="footer-title text-white text-3xl font-extrabold  mx-auto lg:mx-2  lg:pl-2">Get In Touch</header>
-      <p class=" w-full mx-auto text-center  lg:mx-2 lg:text-left lg:w-[350px]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
-       <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-regular fa-envelope py-5"></i> hockeys@support.com</a>
-        <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-solid fa-phone"></i> (+62) 123-321-543</a>
+      <p class=" w-full mx-auto text-center  lg:mx-2 lg:text-left lg:w-[350px]">Dit amet consectetur. Condimentum
+        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+      <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-regular fa-envelope py-5"></i>
+        hockeys@support.com</a>
+      <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-solid fa-phone"></i> (+62) 123-321-543</a>
 
     </nav>
     <nav class="flex flex-row  gap-6 lg:gap-72 leading-8 text-[#AFAFAF] text-base font-medium mx-auto ">
@@ -487,14 +507,14 @@
         <a class="link link-hover">Contact Us</a>
       </div>
     </nav>
-    <nav class="text-[#AFAFAF] text-base font-medium mx-auto ">     
+    <nav class="text-[#AFAFAF] text-base font-medium mx-auto ">
       <header class="footer-title text-white text-2xl font-extrabold">Services</header>
       <a class="link link-hover">Academy</a>
       <a class="link link-hover">Group Lesson</a>
       <a class="link link-hover">Private Lesson</a>
       <a class="link link-hover">Hockeys for kids</a>
       <a class="link link-hover">Hockeys for Adult</a>
-    </div>
+      </div>
 
       <!-- <div class="grid grid-flow-col gap-4">
         <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
