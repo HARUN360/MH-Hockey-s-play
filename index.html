@@ -24,7 +24,6 @@
 </head>
 
 <body class="font-manrope">
-
   <header class="container mx-auto">
     <!-- navber part start -->
     <nav>
@@ -154,7 +153,7 @@
         <!-- progarm img -->
         <div class="py-10 flex flex-col lg:flex-row gap-4">
 
-          <div class="hero min-h-screen rounded-xl " style="background-image: url(images/2.png);">
+          <div class="hero h-full lg:h-[500px]  rounded-xl " style="background-image: url(images/2.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-start text-neutral-content">
               <div class="">
@@ -167,7 +166,7 @@
 
             </div>
           </div>
-          <div class="hero min-h-screen rounded-xl" style="background-image: url(images/3.png);">
+          <div class="hero h-full lg:h-[500px]  rounded-xl" style="background-image: url(images/3.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-start text-neutral-content">
               <div class="">
@@ -332,7 +331,7 @@
         combination of scouting, analytics, and coaching to assess players. They utilize team meetings, video analysis,
         and on-ice practices to convey strategies. </p>
       <!-- quetion no   -->
-      <div class="pt-10">
+      <div class="pt-10 px-4">
         <div class="hero min-h-screen ">
           <div class="hero-content gap-8 flex-col lg:flex-row">
             <img src="images/11.png" class="max-w-sm rounded-lg shadow-2xl w-3/4" />
@@ -408,39 +407,66 @@
         clubs use a combination of scouting, analytics, and coaching to assess players. They utilize team meetings,
         video analysis, and on-ice practices to convey strategies.</p>
       <!-- login -->
-      <div>
-        <div class="flex flex-col gap-4">
-          <div class="hover:bg-[#EFF5FE] duration-75">
+      <div class="flex flex-col lg:flex-row gap-10 justify-center mt-10 lg:mt-20 ">
+        <div class="flex flex-col gap-5 p-4">
+          <div class="p-10 rounded-xl bg-[#FFFCEF] hover:bg-[#EFF5FE] duration-75">
             <img src="images/phone.png" alt="">
             <p class="text-[#13131866] text-base font-medium pt-6 ">Phone Number :</p>
             <h3 class="text-[#131318] text-xl font-extrabold py-1">(+62) 123-321-543</h3>
 
           </div>
-          <div class="hover:bg-[#EFF5FE] duration-75">
+          <div class="p-10 rounded-xl bg-[#FFFCEF] hover:bg-[#EFF5FE] duration-75">
             <img src="images/massage.png" alt="">
             <p class="text-[#13131866] text-base font-medium pt-6 ">Email :</p>
             <h3 class="text-[#131318] text-xl font-extrabold py-1">hockeys@support.com:</h3>
 
           </div>
-          <div class="hover:bg-[#EFF5FE] duration-75">
+          <div class="p-10 rounded-xl bg-[#FFFCEF] hover:bg-[#EFF5FE] duration-75">
             <img src="images/location.png" alt="">
             <p class="text-[#13131866] text-base font-medium pt-6 ">Location :</p>
             <h3 class="text-[#131318] text-xl font-extrabold py-1">152/1 Mohakhali Wireless Gate </h3>
 
           </div>
         </div>
-        <div>
-
-        </div>
+        <form class="px-4">
+           <div class="flex flex-col lg:flex-row gap-4">
+             <div>
+              <h3 class="text-[#131318] text-xl font-bold pb-3">Your Name</h3>
+              <input type="text" placeholder="Enter your full name" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10"  />
+            </div>
+             <div>
+              <h3 class="text-[#131318] text-xl font-bold pb-3">Your Email</h3>
+              <input type="email" name="" id="" placeholder="Enter your email" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
+             </div>
+           </div>
+           <div class="flex  flex-col lg:flex-row gap-4">
+            <div>
+             <h3 class="text-[#131318] text-xl font-bold py-3">Subject</h3>
+             <input type="text" placeholder="Enter your subject" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10"  />
+           </div>
+            <div>
+             <h3 class="text-[#131318] text-xl font-bold py-3">Phone Number</h3>
+             <input type="number" name="" id="" placeholder="Enter your phone number" class="input input-bordered w-full  bg-[#F8F8F8] border-none outline-none px-10">
+            </div>
+          </div>
+           <div>
+            <h3 class="text-[#131318] text-xl font-bold py-4">Message</h3>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="text-left p-10 bg-[#F8F8F8] w-full lg:w-[550px] rounded-xl"></textarea>
+           </div>
+           <div>
+            <button class="py-4 w-full lg:px-52 my-10 rounded-xl bg-[#FF4240] text-xl font-bold text-white ">Send Message</button>
+           </div>
+       </form>
       </div>
     </section>
   </main>
+
   <!-- footer part -->
   <footer class="footer  p-10 bg-[#131318]">
     <nav class="text-[#AFAFAF] text-base font-medium ">
-      <header class="footer-title text-white text-3xl font-extrabold inline mx-auto lg:mx-2  lg:pl-2">Get In Touch</header>
+      <header class="footer-title text-white text-3xl font-extrabold  mx-auto lg:mx-2  lg:pl-2">Get In Touch</header>
       <p class=" w-full mx-auto text-center  lg:mx-2 lg:text-left lg:w-[350px]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
-       <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-regular fa-envelope"></i> hockeys@support.com</a>
+       <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-regular fa-envelope py-5"></i> hockeys@support.com</a>
         <a class="mx-auto lg:mx-2" href=""><i class="text-[#FF4240] pr-2 fa-solid fa-phone"></i> (+62) 123-321-543</a>
 
     </nav>
